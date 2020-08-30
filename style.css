@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+body{
+    font-family: 'Dosis', sans-serif;
+    background-color:  rgb(4, 4, 19); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    width: 20%;
+    box-shadow: -1px -1px 10px 0px #cac7c7;
+}
+.title{
+    color: rgb(16 16 78);
+    font-size: 30px;
+    padding: 20px 0px;
+    font-family: cursive !important;
+}
+.notification{
+    padding: 10px 15px;
+    color: darkred;
+    background-color: rgb(250, 170, 170);
+    display: none;
+}
+.weather-icon img{
+    width: 50%;
+}
+.temperature p{
+    font-size: 60px;
+    color: rgb(16 16 78);
+    font-weight: bolder;
+    margin: -10px 0px 20px 0px;
+}
+.temperature p span {
+    font-size: 40px
+}
+.temperature-description, .location{
+    padding: 5px 0px;
+    font-size: 15px;
+}
