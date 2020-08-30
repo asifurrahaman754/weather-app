@@ -12,8 +12,8 @@ body{
     background-color: white;
     border-radius: 15px;
     text-align: center;
-    width: 20%;
     box-shadow: -1px -1px 10px 0px #cac7c7;
+    padding-bottom: 20px;
 }
 .title{
     color: rgb(16 16 78);
@@ -35,11 +35,30 @@ body{
     color: rgb(16 16 78);
     font-weight: bolder;
     margin: -10px 0px 20px 0px;
+    cursor: pointer;
 }
 .temperature p span {
     font-size: 40px
 }
+.temperature-description{
+    margin-top: -20px;
+    font-size: 20px !important;
+ 
+}
 .temperature-description, .location{
-    padding: 5px 0px;
-    font-size: 15px;
+    color: rgb(16 16 78);
+    font-weight: bold;
+}
+.location{margin-top: 20px;font-size: 14px;}
+
+
+@media only screen and (min-width: 600px){
+    .container{
+        width: 45%;
+    }
+}
+@media only screen and (min-width:1000px){
+    .container{
+        width: 25%;
+    }
 }
